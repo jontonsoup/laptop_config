@@ -1,0 +1,6 @@
+[submodule "tomorrow-theme"]
+	path = tomorrow-theme
+	url = git@github.com:chriskempson/tomorrow-theme.git
+[submodule "zshsettings"]
+	path = zshsettings
+	url = git@github.com:jontonsoup/zshsettings.git
