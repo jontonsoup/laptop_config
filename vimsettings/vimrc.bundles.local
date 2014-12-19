@@ -1,7 +1,10 @@
-Bundle 'jgdavey/tslime.vim'
-Bundle 'thoughtbot/vim-rspec'
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
+Bundle "tomtom/tlib_vim"
 Bundle 'bling/vim-airline'
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'ervandew/supertab'
 Bundle 'flazz/vim-colorschemes'
-Bundle 'garbas/snipmate.vim'
+Bundle 'jgdavey/tslime.vim'
+Bundle 'thoughtbot/vim-rspec'
+Bundle "MarcWeber/vim-addon-mw-utils"
