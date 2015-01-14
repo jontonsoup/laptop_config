@@ -51,3 +51,7 @@ silent! autocmd VimEnter * RemoveConflictingAlignMaps
 "Spelling
 set spell
 set spell spelllang=en_us
+
+"Cursorline
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
