@@ -55,3 +55,6 @@ set spell spelllang=en_us
 "Cursorline
 set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
+
+"Strip Whitespace on save
+autocmd BufWritePost * :call whitespace#strip_trailing()
