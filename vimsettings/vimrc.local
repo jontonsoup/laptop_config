@@ -20,6 +20,7 @@ let g:syntastic_enable_elixir_checker=1
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
+
 " Disambiguate ,a & ,t from the Align plugin, making them fast again.
 "
 " This section is here to prevent AlignMaps from adding a bunch of mappings
@@ -46,3 +47,7 @@ silent! autocmd VimEnter * RemoveConflictingAlignMaps
  "tmux setup
  "
  let g:rspec_command = 'call Send_to_Tmux("spring rspec {spec}\n")'
+
+"Spelling
+set spell
+set spell spelllang=en_us
