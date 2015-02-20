@@ -19,6 +19,7 @@ let g:syntastic_enable_elixir_checker=1
 " highlight 80 char line violation
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+set colorcolumn=80
 
 
 " Disambiguate ,a & ,t from the Align plugin, making them fast again.
